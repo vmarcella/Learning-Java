@@ -1,36 +1,29 @@
 package Basic.Lesson04;
 
-//Must make an import on the scanner.
 import java.util.Scanner;
 
-//Lesson on making a basic calculator.
+/**
+ * Basic Calculator that adds two numbers together, demonstrates some basic math in java.
+ * 
+ * @author C3NZ
+ **/
 public class BasicCalculator {
 
 	public static void main(String[] args) {
 		
-		//We make a user input scanner variable here.
-		//Needs to know where to get input from.
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in); //creates the source for getting user input from the console.
 		
-		//if you have a lot of variables you can write them out all on
-		//one line as long as you're not giving them values yet.
-		double firstNumber, secondNumber, answer;
+		double firstNumber, secondNumber, answer; // creates three doubles, not assigned
 		
 		
-		//So what is going on here is we're  printing a line that prompts
-		//us to enter our first number. the number we enter will be saved to the double 
-		//which is a built in method. Then it asks for our second number, which we just repeat
-		//the process of storing it into our secondNumber variable. Then with our variable answer
-		//we set it equal to whatever the firstNumber plus the SecondNumber is. and then
-		//we print it out.
 		System.out.print("Enter your first number: ");
-		firstNumber  = scanner.nextDouble();
+		firstNumber  = scanner.nextDouble(); //gets the first user input, must be type of a double.
 		
 		System.out.print("Enter your second number: ");
-		secondNumber = scanner.nextDouble();
+		secondNumber = scanner.nextDouble(); //gets the second user input, also must be the type of a double.
 		
-		answer = firstNumber + secondNumber;
-		System.out.println("Your answer is: " + answer);
+		answer = firstNumber + secondNumber; //combines both the first double and the second double
+		System.out.println("Your answer is: " + answer); //whenever you want to use more than one thing on a print line you can use +
 	}
 
 }
