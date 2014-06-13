@@ -9,6 +9,7 @@ import java.util.Scanner;
  * <p><b> * : Multiplication operator [2 * 4 = 8] </b>
  * <p><b> / : Division operator [12 / 4 = 3] </b>
  * <p><b> % : Remainder (Modulus) [16 % 3 = 1]</b>
+ * @author C3NZ
  **/ 
 public class MathOperators {
 
