@@ -1,20 +1,31 @@
 package Basic.Lesson_1;
 
-//everything begins with a class! if you dont have a class, then you cannot make anything
-//function. You always type inside a class
+/**
+ * 
+ * <p>Hello, and welcome to your very first java program! In order to make a program,
+ * you will need a class as demonstrated below. Inside every first class of your programs
+ * there must be a method named:
+ * 
+ * <p><b>public static void main(String args[]){}</b>
+ * 
+ * <p>This is because main is a reserved word for java's virtual machine and whenever it
+ * is implemented as below it will be the entry point of your program, and all code
+ * will be executed from there on.
+ * 
+ * @author Cenz
+ *
+ */
 public class HelloWorld {
 	
-	//The first thing your computer does is look for the method main.
-	//main will always be the method that starts up the program.
-	//method names are also known as the method header.
+	/**
+	 * 
+	 * 
+	 * @return void
+	 * 
+	 * @param args : array of strings
+	 */
 	public static void main(String args[]){
 		
-		//Println is a built in method that prints a line to your
-		//console log below.
-		//Print line is located in the java libraries but is summoned 
-		//through what we did here.
-		System.out.println("Hello, world!");
+		System.out.println("Hello, world!");	//Prints hello world to the screen.
 	}
-	
-	
 }
