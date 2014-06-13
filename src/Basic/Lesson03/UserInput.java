@@ -1,23 +1,20 @@
 package Basic.Lesson03;
 
-//Importing the scanner from the built in java library. This is a must.
-import java.util.Scanner;
 
-//Will be used for teaching the use of how scanners for user input.
+import java.util.Scanner;
+/**
+ * Detecting User Input from the keyboard. Also requires imports from the Java.util
+ * package.
+ * @author C3NZ
+ *
+ */
 public class UserInput {
 
 	public static void main(String args[]){
 		
-		//what we do is we create a Scanner and then we name our
-		//Scanner simply just scanner. we then set the scanner equal to our 
-		//system input and what we basically tell it to do is store whatever we type
-		//into our keyboard into the scanner variable.
-		Scanner scanner = new Scanner(System.in);
-		
-		//this waits for our user input from the keyboard and then
-		//takes whatever we do type and reprints it out.
-		System.out.println(scanner.nextLine());
-		
+		Scanner scanner = new Scanner(System.in); // creates the scanner, passes System.in through Scanner parameters.
+		System.out.println(scanner.nextLine()); //prints out whatever is input to the keyboard
+		scanner.close(); //closes the scanner and deletes it from memory.
 	}
 	
 }

@@ -12,7 +12,7 @@ package Basic.Lesson01;
  * is implemented as below it will be the entry point of your program, and all code
  * will be executed from there on.
  * 
- * @author Cenz
+ * @author C3NZ
  *
  */
 public class HelloWorld {
