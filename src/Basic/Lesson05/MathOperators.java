@@ -2,23 +2,23 @@ package Basic.Lesson05;
 
 import java.util.Scanner;
 
-//Learning basic math operators.
+/**
+ * <p>Basic demonstrations of math operators like :
+ * <p><b> + : Addition operator [5 + 12 = 17] </b>
+ * <p><b> - : Subtraction operator [10 - 8 = 2] </b>
+ * <p><b> * : Multiplication operator [2 * 4 = 8] </b>
+ * <p><b> / : Division operator [12 / 4 = 3] </b>
+ * <p><b> % : Remainder (Modulus) [16 % 3 = 1]</b>
+ **/ 
 public class MathOperators {
 
 	public static void main(String args[]){
-		Scanner scanner = new Scanner(System.in);
 		
-		//Play around with this code and make your own Math operators
-		//(+, -, *, /)
-		//% is a modulus. it can be used to find the remainder of whatever you're dividing.
-		//so if you divide 3 by 2, the modulus will be 1 because there is one left over.
-		int girls, boys, people;
-		girls = 11;
-		boys = 4;
-		people = girls % boys;
-		System.out.println(people);
-		
+		Scanner scanner = new Scanner(System.in); //creates new scanner for user input.
+		int firstNumber, secondNumber, thirdNumber; //creates 3 integers, not assigned any data yet.
+		firstNumber = 11; 
+		secondNumber = 4;
+		thirdNumber = firstNumber % secondNumber;
+		System.out.println(thirdNumber); //prints out thirdNumber
 	}
-	
-	
 }
