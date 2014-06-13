@@ -1,32 +1,28 @@
 package Basic.Lesson06;
 
 import java.util.Scanner;
-
+/**
+ * <p>Demonstations on the increment operator:
+ * 
+ * <p><b>Pre incrementing ex: ++firstNumber;</b>
+ * <p><b>Post incrementing ex: firstNumber++;</b>
+ * <p><b>Difference: Pre incrementing adds 1 to the variable before it's used in the method, while Post incrementing does it after the method
+ * 
+ * @author C3NZ
+ **/ 
 public class IncrementOperators {
 
 	public static void main(String args[]){
-		Scanner scanner = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in); //creates the scanner object for user input.
 		
-		int firstNumber = 5;
-		int secondNumber = 18;
+		int firstNumber = 5; //assign firstNumber to 5
+		int secondNumber = 18; //assign secondNumber to 18
 		
-		//This is an incriment operator. they signs have to be used twice
-		//Pre incrimenting is different than post incrimenting
-		//
-		//    Pre incrementing ex: ++firstNumber;
-		//    Post incrementing ex: firstNumber++;
-		//
-		//The difference is, is what pre does is pre is add it before its used
-		//and post does it after its used the first time. Only has an effect when
-		//being used in the print method.
-		firstNumber++;
+		firstNumber++; //adds 1 to firstNumber 
 				
-		//what this does is instead of assigning the value of 
-		//secondNumber to two, we add it to secondNumber increasing the 
-		//Variables value to twenty.
-		secondNumber += 2;
+		secondNumber += 2; //Adds two to the secondNumber variable instead of assigning its value to 2.
 		
-		System.out.println("Here is the first number: " + firstNumber);
-		System.out.println("here is the second: " + secondNumber);
+		System.out.println("Here is the first number: " + firstNumber); //prints
+		System.out.println("here is the second: " + secondNumber); //prints
 	}	
 }
