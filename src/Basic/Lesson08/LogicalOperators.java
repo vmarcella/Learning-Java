@@ -1,6 +1,12 @@
 package Basic.Lesson08;
 
-//Lesson on logic operators. Or, Multiple tests.
+/**
+ * Jason Schanils a bitch
+ * 
+ * 
+ * @author C3NZ
+ *
+ */
 public class LogicalOperators {
 	
 	public static void main(String args[]){
