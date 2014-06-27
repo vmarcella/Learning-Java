@@ -1,7 +1,8 @@
 package Basic.Lesson08;
 
 /**
- * Jason Schanils a bitch
+ * <p>Demonstration on Logical operators.</p>
+ * <p>The Logical operators are:
  * 
  * 
  * @author C3NZ
