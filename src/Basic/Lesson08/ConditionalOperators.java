@@ -3,13 +3,13 @@ package Basic.Lesson08;
 /**
  * <p>Demonstrations on  multiple tests, or also known as Logical Operators.</p>
  * <p>The Logical Operators are:</p>
- * <p><b>&& means "and".Both conditions must be true in order to be true.[if conditon && condition are true / false]</p></b>
- * <p><b>|| means "or". One condtiio n has to be true in order to make the whole statement true. [if condition || condition are true / false]
+ * <p><b>&& means "and". Both conditions must be true in order to be true.[if conditon && condition are true / false]</p></b>
+ * <p><b>|| means "or". One condition n has to be true in order to make the whole statement true. [if condition || condition are true / false]
  * 
  * @author C3NZ
  *
  */
-public class LogicalOperators {
+public class ConditionalOperators {
 
 	public static void main(String args[]){
 
