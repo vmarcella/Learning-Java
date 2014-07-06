@@ -1,7 +1,16 @@
 package Basic.Lesson09;
 
 /**
- * <p>Lessons on Switch statements
+ * <p>Lessons on Switch statements</p>
+ * 
+ * <code><b>
+ * 	switch(age){
+ * </b></code>
+ * 
+ * <p> all switch statements start with the reserved word "switch" followed by a set of parameters.
+ * The paramters take in variable names of all reserved types. "Case" is also a reserved word. Case can be looked at as an "if" statement.
+ * <code><b>case 14:</b> is equal to <b>if(age == 14)</b></code>
+ * </p>
  * @author C3NZ
  *
  */
@@ -9,15 +18,7 @@ public class SwitchStatements {
 
 	public static void main(String[] args) {
 		
-		int age;
-		age = 16;
-		
-		//This is a set up for the switch statement.
-		//the variable we are testing right now is the integer we made
-		//called age. the cases test to see if the variable is equal
-		//to the number after the case. break then tells the code to terminate
-		//because you already found out which case is true.
-		//default is if none of the cases are true then just do this by default.
+		int  age = 15;
 		switch(age){
 		
 		case 14:

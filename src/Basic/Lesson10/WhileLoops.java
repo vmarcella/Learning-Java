@@ -1,20 +1,25 @@
 package Basic.Lesson10;
 
-//wjile loops allow you to execute code as mamny times as you want but only 
-//have to type it once.
+import java.util.Random;
+
+/**
+ * 
+ * <p>Introduction to while loops.</p>
+ * <p>While loops are used for running code for an unknown amount of times
+ * .
+ * 
+ * @author C3NZ
+ *
+ */
 public class WhileLoops {
 
 	public static void main(String[] args) {
+		Random random = new Random();
+		int number = random.nextInt(101); //0 - 100 can be set to number
 			
-		int number = 0;
-			
-			//While loops allow you to run code as many times as you want.
-			//what we're doing here is saying while 10 is less than 10,
-		 	// print out the variable number, then add 1 more to the variable and print
-			//it out again.
-			while(number < 10){
+			while(number <= 100){ //do this as many times as needed
 				System.out.println(number);
-				number++;
+				number++;//add one to the number
 			}
 
 	}
