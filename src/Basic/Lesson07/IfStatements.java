@@ -7,13 +7,13 @@ package Basic.Lesson07;
  * , else's code is executed.
  * 
  * <p>The Testing operators are:
- * <p><b> == : is Equal [if(x == 2)]
- * <p><b> != : is not equal [if(x != 2)]
- * <p><b> < : Less than [if(x < 12)]
- * <p><b> > : Greater than [if(x > 12)]
- * <p><b> >= : Greater than or equal to [if(x >= 32)]
- * <p><b> <= : Less than or equal tp [if(x <= 45)]
- * <p><b> %% : Has a remainder of [if(x %% 12)]
+ * <p><b> == : is Equal [ if(x == 2) ]
+ * <p><b> != : is not equal [ if(x != 2) ]
+ * <p><b> < : Less than [ if(x < 12) ]
+ * <p><b> > : Greater than [ if(x > 12) ]
+ * <p><b> >= : Greater than or equal to [ if(x >= 32) ]
+ * <p><b> <= : Less than or equal to [ if(x <= 45) ]
+ * <p><b> %% : Has a remainder of [ if(x %% 12) ]
  * 
  * @author C3NZ
  **/ 

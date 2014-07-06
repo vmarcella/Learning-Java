@@ -1,8 +1,10 @@
 package Basic.Lesson09;
 
-//Lessons on switch Statements. Test one variable.
-//Depending on the value of the variable it gives you multiple 
-//choices.
+/**
+ * <p>Lessons on Switch statements
+ * @author C3NZ
+ *
+ */
 public class SwitchStatements {
 
 	public static void main(String[] args) {

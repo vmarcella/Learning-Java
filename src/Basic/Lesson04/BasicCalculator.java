@@ -24,6 +24,8 @@ public class BasicCalculator {
 		
 		answer = firstNumber + secondNumber; //combines both the first double and the second double
 		System.out.println("Your answer is: " + answer); //whenever you want to use more than one thing on a print line you can use +
+	
+		scanner.close();
 	} 
 
 }

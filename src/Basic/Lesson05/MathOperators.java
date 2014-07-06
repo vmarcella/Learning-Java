@@ -20,6 +20,7 @@ public class MathOperators {
 		firstNumber = 11; 
 		secondNumber = 4;
 		thirdNumber = firstNumber % secondNumber;
-		System.out.println(thirdNumber); //prints out thirdNumber
+		System.out.println(thirdNumber); //prints out thirdNumber\
+		scanner.close();
 	}
 }

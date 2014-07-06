@@ -24,5 +24,6 @@ public class IncrementOperators {
 		
 		System.out.println("Here is the first number: " + firstNumber); //prints
 		System.out.println("here is the second: " + secondNumber); //prints
+		scanner.close();
 	}	
 }
