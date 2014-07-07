@@ -2,7 +2,7 @@ package Basic.Lesson07;
 
 /**
  * <p>Demonstration on if statements.
- * <p>"If" is a reserved word. Inside the parameters of the if(), goes the condition. The condition is tested to see
+ * <p>"if" is a reserved word. Inside the parameters of the if(), goes the condition. The condition is tested to see
  * if it's either true or false. Inside the brackets goes the statement, and if the statement is true, the code is executed. Otherwise
  * , else's code is executed.
  * 

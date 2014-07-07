@@ -14,7 +14,7 @@ public class CreatingFiles {
 			//Formatter allows us to create a file at any location we want to.
 			//if we don't specify any name then the file gets made in wherever your workspace
 			//is.
-			Formatter x = new Formatter("C:\\Users\\Cenz\\Desktop\\Test.txt");
+			Formatter x = new Formatter();
 			System.out.println("File Created!");
 			x.close();
 		//happens if the try methods fail.	
