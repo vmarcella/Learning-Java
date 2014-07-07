@@ -8,7 +8,7 @@ import java.util.Scanner;
  * <p><b>Post incrementing ex: firstNumber++;</b>
  * <p><b>Difference: Pre incrementing adds 1 to the variable before it's used in the method, while Post incrementing does it after the method
  * 
- * @author C3NZ
+ * @author https://github.com/C3NZ
  **/ 
 public class IncrementOperators {
 

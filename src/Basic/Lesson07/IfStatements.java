@@ -15,7 +15,7 @@ package Basic.Lesson07;
  * <p><b> <= : Less than or equal to [ if(x <= 45) ]
  * <p><b> %% : Has a remainder of [ if(x %% 12) ]
  * 
- * @author C3NZ
+ * @author https://github.com/C3NZ
  **/ 
 public class IfStatements {
 

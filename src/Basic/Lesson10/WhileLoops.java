@@ -8,7 +8,7 @@ import java.util.Random;
  * <p>While loops are used for running code for an unknown amount of times
  * .
  * 
- * @author C3NZ
+ * @author https://github.com/C3NZ
  *
  */
 public class WhileLoops {

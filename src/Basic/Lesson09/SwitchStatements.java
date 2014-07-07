@@ -11,7 +11,7 @@ package Basic.Lesson09;
  * The paramters take in variable names of all reserved types. "Case" is also a reserved word. Case can be looked at as an "if" statement.
  * <code><b>case 14:</b> is equal to <b>if(age == 14)</b></code>
  * </p>
- * @author C3NZ
+ * @author https://github.com/C3NZ
  *
  */
 public class SwitchStatements {

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Detecting User Input from the keyboard. Also requires imports from the Java.util
  * package.
- * @author C3NZ
+ * @author https://github.com/C3NZ
  *
  */
 public class UserInput {

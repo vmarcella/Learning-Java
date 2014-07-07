@@ -3,24 +3,24 @@ package Basic.Lesson12;
 
 import java.util.Scanner;
 
-//This will be used for learning the use of parameters in methods.
+/**
+ * Lesson on usage of a methods parameters
+ * @author C3NZ
+ *
+ */
 public class ParametersInMethods {
-	public static void main(String[] args ){
+	public static void main(String[] args){
 			
-		Scanner scanner = new Scanner(System.in);
-		SecondaryClass scObject = new SecondaryClass();
+		Scanner scanner = new Scanner(System.in);	//gets input from keyboard through eclipse console
+		NewMessage scObject = new NewMessage();	//creates object
 			
 		System.out.print("Enter your name: ");
-		String user = scanner.nextLine();
+		String user = scanner.nextLine();	//gets input, sets it equal to string
 			
-		//We then use the object that we created out of the secondary class
-		//to run the method newMessage and it then uses the data we had assigned
-		//the String user in this class into the secondary class where the string user
-		//is located in there. if you remove user from the method we are calling for you will
-		//get an error because in order for it to run the method we need it to use the parameters
-		//we had assigned it to in the other class 
+		//use method from NewMessage class non statically, passes through our string as an argument
+		//and now the newMessage method has access to that variables's data.
 		scObject.newMessage(user);
-		scanner.close();
+		scanner.close();	//closes scanner
 		}
 	
 	

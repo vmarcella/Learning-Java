@@ -2,21 +2,22 @@ package Basic.Lesson13;
 
 import java.util.Scanner;
 
-//Multiple methods and instance variables.
+/**
+ * Lesson on Multiple methods and instance variables.
+ * @author https://github.com/C3NZ
+ *
+ */
 public class MultipleMethods {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		SecondaryClass scObject = new SecondaryClass();
-		System.out.print("Enter name of parent here: ");
+		Scanner scanner = new Scanner(System.in);	//creates scanner
+		Name scObject = new Name();	//creates object
+		System.out.print("Enter your name: ");
 		
-		//we create a  string named name, and sets it to whatever we input it.
-		//we then set the value of the string equal to the string name we created
-		//in the parameters in the other class. then we run the next mehtod newMesage to print it out.
-		String parentsName = scanner.nextLine();
+		String parentsName = scanner.nextLine(); //gets the input value from console
 		
-		scObject.theName(parentsName);
-		scObject.newMessage();
+		scObject.theName(parentsName); //passes the local variable into the "theName" method
+		scObject.newMessage();	//runs the "newMessage method, doesn't need any arguments"
 		scanner.close();
 	}
 

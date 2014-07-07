@@ -2,7 +2,7 @@ package Basic.Lesson01;
 
 /**
  * Hello World!
- * @author C3NZ
+ * @author https://github.com/C3NZ
 
  */
 //The class is named HelloWorld. Classes contain all the code.

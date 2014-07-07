@@ -6,7 +6,7 @@ package Basic.Lesson08;
  * <p><b>&& means "and". Both conditions must be true in order to be true.[if conditon && condition are true / false]</p></b>
  * <p><b>|| means "or". One condition n has to be true in order to make the whole statement true. [if condition || condition are true / false]
  * 
- * @author C3NZ
+ * @author https://github.com/C3NZ
  *
  */
 public class ConditionalOperators {

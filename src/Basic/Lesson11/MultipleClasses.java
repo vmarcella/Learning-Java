@@ -10,7 +10,7 @@ public class MultipleClasses {
 	public static void main(String[] args) {
 		
 		//We create an object of the Secondary class. Now have access to all its methods and variables non statically.
-		SecondaryClass scObject = new SecondaryClass();
+		MessageClass scObject = new MessageClass();
 		scObject.newMessage();//runs method
 	}
 

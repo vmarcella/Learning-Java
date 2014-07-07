@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Basic Calculator that adds two numbers together, demonstrates some basic math in java.
  * 
- * @author C3NZ
+ * @author https://github.com/C3NZ
  **/
 public class BasicCalculator {
 

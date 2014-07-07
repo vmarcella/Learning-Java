@@ -13,7 +13,7 @@ package Basic.Lesson02;
  * <p><b>byte : Stores 8 bit complement integers [-12, 123, 12]
  * <p><b>short : Stores 16 bit complement integers [3094, -5498, 45]
  * <p><b>long : Stores 64 bit complement integers [34000, -64999, 123]
- * @author C3NZ
+ * @author https://github.com/C3NZ
  *
  */
 public class Variables {
