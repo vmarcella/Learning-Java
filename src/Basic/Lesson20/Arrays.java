@@ -1,21 +1,26 @@
 package Basic.Lesson20;
 
+/**
+ * Lesson on Arrays
+ * @author https://github.com/C3NZ
+ *
+ */
+
 public class Arrays {
 	
 	public static void main(String[] args){
 		
-		//square brackets let you know that you're going to be making
-		//an array. our array can hold ten integers.
+		//square brackets always indicate arrays. arrays store things inside indexes and as you can see
+		//we set the number of indexes that this arrays has is 10.
 		int array[] = new int[10];
 		
-		//This is known as an index of an array.
-		//from 0 - 9 always.
+		//this is how you store data to an array index. by default the indexes have a value of zero
 		array[0] = 20;
 		array[1] = 43;
 		array[9] = 234;
 		
 		//you can print out any array index.
-		System.out.println(array[1]);
+		System.out.println(array[4]);
 		
 		
 		//an array initializer, don't need to create a new variable

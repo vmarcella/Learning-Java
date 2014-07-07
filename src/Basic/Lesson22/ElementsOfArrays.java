@@ -1,5 +1,9 @@
 package Basic.Lesson22;
-
+/**
+ * Lesson on elements of arrays
+ * @author https://github.com/C3NZ
+ *
+ */
 public class ElementsOfArrays {
 	
 	public static void main(String[] args){

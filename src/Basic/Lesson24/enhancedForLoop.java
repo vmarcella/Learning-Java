@@ -1,5 +1,9 @@
 package Basic.Lesson24;
-
+/**
+ * Lesson on enhanced for loops
+ * @author https://github.com/C3NZ
+ *
+ */
 public class enhancedForLoop {
 
 	public static void main(String[] args){

@@ -1,7 +1,11 @@
 package Basic.Lesson18;
 
 
-//all of these are built in.
+/**
+ * Very useful built in math functions in java
+ * @author https://github.com/C3NZ
+ *
+ */
 public class MathClass {
 	public static void main(String[] args){
 		
