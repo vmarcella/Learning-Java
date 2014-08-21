@@ -6,7 +6,7 @@ public class MultiDimensionalArrays {
 		//first [] is for the row while the second []
 		//is for the column, or the index.
 		int array[][] = {{2,3,4,5,6},{23,432,5465,76}};
-		//array[0][0] = 2
+		//array[0][0] = 23
 		int array2[][] = {{23,453,65,87},{423},{345}};
 		
 		
