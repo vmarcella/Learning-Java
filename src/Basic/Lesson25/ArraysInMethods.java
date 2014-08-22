@@ -1,5 +1,9 @@
 package Basic.Lesson25;
-
+/**
+ * Lesson on Arrays used in methods
+ * @author https://github.com/C3NZ
+ *
+ */
 public class ArraysInMethods {
 
 	public static void main(String[] args){
