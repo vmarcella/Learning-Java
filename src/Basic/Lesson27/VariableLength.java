@@ -1,5 +1,10 @@
 package Basic.Lesson27;
 
+/**
+ * 
+ * @author https://github.com/C3NZ
+ *
+ */
 public class VariableLength {
 	
 	public static void main(String[] args){
@@ -9,7 +14,7 @@ public class VariableLength {
 		
 	}
 	
-	//... means you dont know how many arguments its going to take.
+	//... means you don't know how many arguments its going to take.
 	public static int average(int...numbers){
 		int total = 0;
 		//where its getting its data, and storing it into integer x
